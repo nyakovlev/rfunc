@@ -1,0 +1,12 @@
+{
+  "name": "rfunc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Distributed functional programming protocol",
+  "main": "./endpoint.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chassless Apps, Inc.",
+  "license": "SEE LICENSE IN ./LICENSE"
+}
