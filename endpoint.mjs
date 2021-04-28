@@ -28,7 +28,7 @@ export default function createEndpoint() {
       case "array":
         return v.items.map(item => decode(item));
       case "object":
-        return v.items.reduce((agg, {key, value}) => ({...agg, [key]: value}), {});
+        return v.items.reduce((agg, {key, value}) => ({...agg, [key]: decode(value)}), {});
       case "value":
         return v.value;
     }
